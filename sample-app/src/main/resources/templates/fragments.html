@@ -6,5 +6,19 @@
     <div class="inner">x</div>
   </section>
 </div>
+
+<div th:fragment="cardWithId">
+  <section class="frag" id="fid">
+    <div>a</div>
+  </section>
+</div>
+
+<div th:fragment="cardHx">
+  <section class="frag" hx-get="/frag"></section>
+</div>
+
+<div th:fragment="cardData">
+  <section class="frag" data-foo="frag"></section>
+</div>
 </body>
 </html>

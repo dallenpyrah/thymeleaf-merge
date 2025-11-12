@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:merge="~{fragments :: card}"
+     data-id="123"
+     data-user-id="u-456"
+     data-test="yes"
+     data-foo-bar="baz"
+     data-json='{"a":1}'
+     data-list='[1,2,3]'
+></div>
+</body>
+</html>

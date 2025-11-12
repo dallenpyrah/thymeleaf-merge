@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:merge="~{fragments :: card}" 
+     class="host x y"
+     style="color:red; padding:3px"
+     hx-get="/host-get"
+     hx-post="/host-post"
+     hx-target="#tgt"
+     hx-trigger="click"
+     hx-swap="outerHTML"
+     hx-headers='{"X-Test":"1"}'
+     hx-vals='{"a":1}'
+     data-a="A"
+     data-b="B"
+     aria-label="label"
+     aria-checked="true"
+     id="hid"
+>
+</div>
+</body>
+</html>

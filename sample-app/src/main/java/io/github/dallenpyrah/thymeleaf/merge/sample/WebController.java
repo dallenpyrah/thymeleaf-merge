@@ -9,4 +9,39 @@ public class WebController {
     public String index() {
         return "index";
     }
+
+    @GetMapping("/id")
+    public String id() {
+        return "id";
+    }
+
+    @GetMapping("/exclude")
+    public String exclude() {
+        return "exclude";
+    }
+
+    @GetMapping("/attrs")
+    public String attrs() {
+        return "attrs";
+    }
+
+    @GetMapping("/hxheavy")
+    public String hxheavy() {
+        return "hxheavy";
+    }
+
+    @GetMapping("/dataheavy")
+    public String dataheavy() {
+        return "dataheavy";
+    }
+
+    @GetMapping("/ariaheavy")
+    public String ariaheavy() {
+        return "ariaheavy";
+    }
+
+    @GetMapping("/stdattrs")
+    public String stdattrs() {
+        return "stdattrs";
+    }
 }
