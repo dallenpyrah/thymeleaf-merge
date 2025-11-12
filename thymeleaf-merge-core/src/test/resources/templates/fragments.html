@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:fragment="card">
+  <section class="frag" id="f1" style="background:blue">
+    <div class="inner">x</div>
+  </section>
+  
+</div>
+
+<div th:fragment="cardWithId">
+  <section class="frag" id="fid">
+    <div>a</div>
+  </section>
+</div>
+
+<div th:fragment="cardHx">
+  <section class="frag" hx-get="/frag"></section>
+  
+</div>
+
+<div th:fragment="cardData">
+  <section class="frag" data-foo="frag"></section>
+</div>
+
+</body>
+</html>

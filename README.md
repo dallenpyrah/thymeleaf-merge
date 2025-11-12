@@ -65,4 +65,3 @@ Result root element:
 ## License
 
 Apache-2.0
-# thymeleaf-merge

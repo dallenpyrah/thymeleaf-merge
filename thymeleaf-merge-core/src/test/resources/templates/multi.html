@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:merge="~{fragments :: card}" class="one" hx-post="/a"></div>
+<div th:merge="~{fragments :: card}" class="two" data-x="x"></div>
+</body>
+</html>
